@@ -1,1 +1,2 @@
-print("catastrophe")i
+print("catastrophe")
+assert 1 == 0
