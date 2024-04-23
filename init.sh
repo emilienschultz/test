@@ -15,4 +15,4 @@ env | sort > env_init.out
 mkdir depot
 cd depot
 git clone https://github.com/emilienschultz/test.git
-pip install -m test/requirements.txt
+pip install -r test/requirements.txt
