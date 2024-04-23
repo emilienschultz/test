@@ -12,7 +12,5 @@ exec 1>log.out 2>&1
 env | sort > env_init.out
 
 # Cloner le dépot
-mkdir depot
-cd depot
 git clone https://github.com/emilienschultz/test.git
 pip install -r test/requirements.txt
