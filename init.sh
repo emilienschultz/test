@@ -15,4 +15,4 @@ touch "test"
 
 # Cloner le dépot
 git clone https://github.com/emilienschultz/test.git
-python install -m test/requirements.txt
+pip install -m test/requirements.txt
