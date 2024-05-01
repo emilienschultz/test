@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Variables $1 &2 etc.
-
 # Exemple : https://git.drees.fr/drees_code_public/ressources/tutos/-/blob/diffusion/contenu/init.sh
 # On enregistre tous les logs dans log.out pour pouvoir déboguer
 exec 3>&1 4>&2
@@ -11,6 +9,5 @@ exec 1>log.out 2>&1
 # Pareil pour les variables d'environnement
 env | sort > env_init.out
 
-# Cloner le dépot
-git clone https://github.com/emilienschultz/test.git
+# git clone https://github.com/emilienschultz/test.git
 pip install -r test/requirements.txt
